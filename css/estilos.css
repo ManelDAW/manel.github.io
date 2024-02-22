@@ -51,8 +51,7 @@ footer {
 
 #idiomas {
     background-color: #f4f4f4;
-    padding: 20px;
-}
+    padding: 20px;}
 
 .languages-container {
     display: flex;
@@ -168,7 +167,7 @@ div div:hover {
     margin-bottom: 10px;
 }
 
-#formacion-complementaria {
+#estudios{
     background-color: #f4f4f4;
     padding: 20px;
 }

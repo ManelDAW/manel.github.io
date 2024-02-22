@@ -1,3 +1,2 @@
-#Repositorio
-
-Repositorio
+ # Proyecto Curriculum Vitae
+ A partir de la base que se nos ha dado, he añadido mi propia información, y seguidamente he retocado colores de fondo, de las casillas. He añadido mi propia frase con enlace a un video, y lo he camuflado para que a primera vista no se detecte, y lo más destacable son las animaciones que he añadido a los títulos con hover que le dan una buena esencia y otros hovers dentro de los dives, para que se vea más interactiva la página en cuanto a la visión y no sea una simple página scrolleable y ya.
