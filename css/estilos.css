@@ -5,10 +5,15 @@ body {
     background-color: #baf0eb;
     color: #272323;
 }
-
+a {
+    text-decoration: none;
+    color: inherit; 
+  }
 :root {
     --main-color: #32393f;
     --secundary-color: #7bbaf1;
+    --cool-color:rgb(156, 210, 231);
+    --secundary-cool-color:#3380ac;
 }
 
 header, section, footer {
@@ -26,7 +31,6 @@ h1 {
 }
 
 h2 {
-    border-bottom: 2px solid var(--main-color);
     padding-bottom: 5px;
 }
 
@@ -124,7 +128,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajusta según necesidad */
+    width: 250px; 
     text-align: center;
 }
 
@@ -132,7 +136,9 @@ footer {
     font-size: 50px;
     margin-bottom: 10px;
 }
-
+div div:hover {
+    background-color:var(--cool-color) ; 
+}
 #formacion-reglada {
     background-color: #f4f4f4;
     padding: 20px;
@@ -182,7 +188,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajuste según necesidad */
+    width: 250px; 
     text-align: center;
 }
 
@@ -190,3 +196,32 @@ footer {
     font-size: 50px;
     margin-bottom: 10px;
 }
+h1{
+    --s: 0.1em;   
+    --c: var(--secundary-cool-color); 
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  h1:hover {--_p: 100%}
+  
+  h2{
+    --s: 0.1em;   
+    --c: var(--secundary-cool-color); 
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  h2:hover {--_p: 100%}
